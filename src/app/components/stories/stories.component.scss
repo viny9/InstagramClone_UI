@@ -1,0 +1,53 @@
+p {
+    margin: 0;
+}
+
+.stories {
+    margin: 0px 164px 0 164px;
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    border-radius: 2px;
+    width: 596px;
+    overflow-x: hidden;
+    padding: 16px 0 16px 16px;
+    display: flex;
+    align-items: center;
+}
+
+// .stories button {
+//     position: absolute;
+//     background-color: rgba(255, 255, 255, 0.383);
+//     border-radius: 50%;
+//     padding: 10px;
+//     border: none;
+// }
+
+.stories::-webkit-scrollbar {
+    display: none;
+}
+
+.storie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 4px;
+    width: 80px;
+}
+
+.storie p{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: center;
+    max-width: 72px;
+    font-size: 12px;
+}
+
+.storie img{
+    width: 56px;
+    // border-radius:50px; /*1*/
+    border: 2px solid transparent;
+    border-radius: 50%;
+    border-image-slice: 1;
+    background:linear-gradient(45deg,#f99b4a,#d82c7c) border-box; /*3*/
+}

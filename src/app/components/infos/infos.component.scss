@@ -1,0 +1,122 @@
+h1, p, h3, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.infos {
+    position: fixed;
+    top: 94px;
+    left: 807px;
+    width: 293px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin: 18px 0 10px 0;
+    font-size: 14px;
+}
+
+.profile img {
+    margin-right: 12px;
+    border-radius: 50%;
+}
+
+.profile a {
+    color: #0597f6;
+    text-decoration: none;
+    margin-left: 8px;
+    font-size: 12px;
+    font-weight: 500 ;
+}
+
+.profileInfos p {
+    font-weight: 400;
+    color: #8e8e8e;
+}
+
+.profileInfos p:first-child {
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+}
+
+.mid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.mid h3 {
+    font-size: 14px;
+    color: #8e8e8e;
+    font-weight: 600;
+}
+
+.mid p {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.sugestions {
+    padding: 8px 0;
+    margin-bottom: 12px;
+}
+
+.sugestion {
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+}
+
+.sugestion img{
+    margin-right: 12px;
+    border-radius: 50%;
+}
+
+.sugestion p {
+    color: #0597f6;
+    font-size: 12px;
+    font-weight: 500 ;
+}
+
+.sugestionInfos {
+    width: 207px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.sugestionInfos p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #8e8e8e;
+}
+
+.sugestionInfos p:first-child {
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+}
+
+.extras p {
+    font-size: 12px;
+    color: #c7c7c7;    
+}
+
+.options {
+    margin-bottom: 16px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.options li {
+    display: inline-block;
+    color: #c7c7c7;
+    font-size: 12px;
+}
+
+li::after {
+    content: '\00B7';
+    margin: 0 3px;
+}

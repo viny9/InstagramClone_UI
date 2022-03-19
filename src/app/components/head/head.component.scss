@@ -1,0 +1,51 @@
+.component {
+    display: flex;
+    height: 3.6rem;
+    border-bottom: 1px solid #dbdbdb;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    width: 100%;
+}
+
+.head {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 164px; 
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    background-color: #efefef;
+    color: #8e8e8e;
+    border-radius: 8px;
+    height: 2.4rem;
+    width: 14.5rem;
+    padding: 0 16px;
+}
+
+.search img {
+    margin-right: 12px;
+}
+
+.search input {
+    background-color: #efefef;
+    color: #8e8e8e;
+    border: none;
+}
+
+
+input:focus {
+    outline: none;
+}
+
+.icons {
+    width: 278px;
+}
+
+.icons img {
+    padding-left: 22px;
+}
